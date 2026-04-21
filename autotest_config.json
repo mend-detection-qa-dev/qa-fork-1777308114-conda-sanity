@@ -49,7 +49,9 @@
             "validate_agent_versions": true,
             "expected_agent_version": "",
             "expected_plugin_version": "",
-            "_comment_agent_versions": "Optional. Expected agent and plugin versions. If not provided, this check will not be performed."
+            "_comment_agent_versions": "Optional. Expected agent and plugin versions. If not provided, this check will not be performed.",
+            "validate_mend_tags": true,
+            "_comment_validate_mend_tags": "Whether to validate project tags from Mend Platform BFF API against update request extraProperties. Options: true | false. Default: false."
         },
         "validate_vulnerabilities_table": true,
         "_comment_validate_vulnerabilities_table": "Whether to validate the vulnerabilities table. Options: true | false. Default: true",
